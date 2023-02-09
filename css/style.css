@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Raleway;
+    src:local("static/Raleway-Light.ttf");
+    src:local("static/Raleway-Regular.ttf");
+    src:local("static/Raleway-Medium.ttf");
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 .header {
   display: flex;
   position: -webkit-sticky;
